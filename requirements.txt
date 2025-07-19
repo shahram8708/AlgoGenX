@@ -1,0 +1,5 @@
+Flask
+markdown2
+python-dotenv
+Requests
+gunicorn
