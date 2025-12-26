@@ -13,8 +13,8 @@ def allowed_file(filename: str) -> bool:
 
 load_dotenv()
 
-API_KEY = "AIzaSyC1dSEI8aENjszrP9IcqZYX561QV8ASHa0"
-PERPLEXITY_API_KEY = "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"
+API_KEY = ""
+PERPLEXITY_API_KEY = ""
 SECRET_KEY = os.getenv("SECRET_KEY", "signature_secret")
 ENDPOINT = "https://api.perplexity.ai/chat/completions"
 HEADERS = {
